@@ -4,7 +4,7 @@
 # Last Modified: 1/14/2025
 
 # Import needed interface and random module
-from interfaces.bike import Bike
+from race.interfaces.bike import Bike
 from random import randint
 
 # Class for Ducati bikes

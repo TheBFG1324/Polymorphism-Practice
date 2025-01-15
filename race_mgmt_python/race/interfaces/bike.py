@@ -5,7 +5,7 @@
 
 # Import the ABC and abstractmethod from the abc module
 from abc import abstractmethod
-from interfaces.vehicle import Vehicle  # Assuming the Vehicle class is in this path
+from race.interfaces.vehicle import Vehicle
 
 # Abstract class Bike inherits from Vehicle
 class Bike(Vehicle):

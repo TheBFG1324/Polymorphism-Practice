@@ -27,7 +27,7 @@ class Race:
                 print(f"{vehicle.Name()}:{vehicle.Type()} is driving")
                 drive_speed = vehicle.drive()
                 print(f"Drive speed: {drive_speed}")
-                vehicle.Update_Position(drive_speed)
+                vehicle.Update_Position(vehicle.Position() + drive_speed)
             
             # Determine and print the standings
             standings = sorted(self._vehicles, key=lambda v: v.Position(), reverse=True)

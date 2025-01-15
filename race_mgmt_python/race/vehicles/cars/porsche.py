@@ -4,7 +4,7 @@
 # Last Modified: 1/14/2025
 
 # Import needed interface and random module
-from interfaces.car import Car
+from race.interfaces.car import Car
 from random import randint
 
 # Class for Porsche cars
