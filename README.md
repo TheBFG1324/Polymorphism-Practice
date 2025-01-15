@@ -1,2 +1,2 @@
 # Polymorphism-Practice
-A Python project focused on practicing object-oriented programming concepts, including polymorphism, inheritance, abstract classes, method overriding, and interfaces, to build a system that demonstrates reusable, modular, and extensible code.
+A Python and Go project demonstrating modular and extensible code through a racing simulation system involving different types of vehicles. The project highlights object-oriented programming concepts such as polymorphism, inheritance, abstract classes, and method overriding in Python, while leveraging Go's idiomatic design principles, including interfaces and composition, to achieve similar functionality.
