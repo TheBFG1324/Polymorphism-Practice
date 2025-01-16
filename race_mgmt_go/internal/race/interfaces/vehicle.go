@@ -3,11 +3,11 @@ package interfaces
 // Vehicle interface defines the required methods that all vehicles must implement.
 type Vehicle interface {
 	Type() string
-	Name() string
+	Get_Name() string
 	Start_Speed() int
 	Max_Speed() int
 	Acceleration_Rate() int
-	Position() int
+	Get_Position() int
 	Update_Position(int) int
 	Start() int
 	Drive() int
