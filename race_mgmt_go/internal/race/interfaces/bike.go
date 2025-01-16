@@ -1,4 +1,4 @@
-package race
+package interfaces
 
 // Bike interface extends the Vehicle interface to include bike-specific behaviors.
 type Bike interface {
