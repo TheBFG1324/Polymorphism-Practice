@@ -1,3 +1,8 @@
+// Main package to initialize and run the race simulation
+// Author: Cameron Denton
+// Created: 01/16/2025
+// Last Modified: 01/16/2025
+
 package main
 
 import (
@@ -8,6 +13,7 @@ import (
 )
 
 func main() {
+	// Initialize a list of vehicles participating in the race
 	vehicles := []interfaces.Vehicle{
 		bikes.NewKawasaki("Ninja", 10, 100, 2),
 		bikes.NewDucati("Panigale", 15, 120, 3),
@@ -15,5 +21,7 @@ func main() {
 		cars.NewLamborghini("Aventador", 25, 200, 5),
 		cars.NewPorsche("911 GT3", 30, 180, 6),
 	}
+
+	// Run the race with the list of vehicles for 10 iterations
 	race.Race(vehicles, 10)
 }
